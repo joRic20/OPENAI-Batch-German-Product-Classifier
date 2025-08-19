@@ -1,6 +1,6 @@
 # OPENAI-Batch-German Product Classifier
 
-🚀 **Large-scale e-commerce product classification using OpenAI Batch API for cost-efficient processing of 435k+ German industrial products**
+**Large-scale e-commerce product classification using OpenAI Batch API for cost-efficient processing of 435k+ German industrial products**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![OpenAI](https://img.shields.io/badge/OpenAI-Batch_API-green.svg)](https://platform.openai.com)
@@ -15,9 +15,9 @@ This system automatically classifies German industrial tools, hardware, and tech
 - **High-Performance Processing** - 700k products in ~3 hours
 - **German Market Specialization** - Expert-level German industrial terminology
 - **Advanced Monitoring** - Real-time batch progress tracking
-- **🔧 Production-Ready** - Comprehensive error handling and data validation
+- **Production-Ready** - Comprehensive error handling and data validation
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 | Metric | Achievement |
 |--------|-------------|
@@ -28,7 +28,7 @@ This system automatically classifies German industrial tools, hardware, and tech
 | **Success Rate** | 99.8% |
 | **Cost per Product** | ~$0.0000046 |
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Core Technologies
 - **OpenAI Batch API** - Advanced parallel processing
@@ -42,7 +42,7 @@ This system automatically classifies German industrial tools, hardware, and tech
 - **Parallel Processing** - Multiple batch jobs simultaneously
 - **Memory Efficiency** - 50k row chunking for large datasets
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 german-product-classifier/
@@ -58,7 +58,7 @@ german-product-classifier/
 └── .gitignore                      # Git configuration
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -97,7 +97,7 @@ python monitor_batches.py
 - Progress percentages and completion times
 - Error detection and reporting
 
-## ⚙️ Configuration
+## Configuration
 
 ### Batch Optimization Settings
 ```python
@@ -113,7 +113,7 @@ INPUT_EXCEL = "your_dataset.xlsx"     # Input file path
 MAX_ROWS = None                       # Process all rows (or set limit)
 ```
 
-## 🎯 German Product Classification
+## German Product Classification
 
 ### Expert Domain Knowledge
 - **15+ years industrial terminology** expertise
@@ -133,7 +133,7 @@ Input:  "DeWalt Multi-Tool Oscillating 18V XR Brushless"
 Output: "Multi-Tool"
 ```
 
-## 📊 Cost Analysis
+## Cost Analysis
 
 ### OpenAI Batch API vs Standard API
 
@@ -143,7 +143,7 @@ Output: "Multi-Tool"
 | **Batch API (This Project)** | 700k products | **$4** | **3 hours** | **870** |
 | **Efficiency Gain** | - | **97% cheaper** | **12x faster** | **99.8% reduction** |
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### Intelligent Error Handling
 - **Automatic retry logic** for failed batches
@@ -163,13 +163,13 @@ Excel Input → Chunking → Batch Requests → OpenAI Processing →
 Results Download → Data Validation → Excel Export → Analytics
 ```
 
-## 🏗️ Scalability
+## Scalability
 
 ### Tested Performance
-- ✅ **700,000+ products** successfully processed
-- ✅ **Multiple dataset formats** supported
-- ✅ **Concurrent batch processing** for maximum throughput
-- ✅ **Memory-efficient** chunking for datasets of any size
+-  **700,000+ products** successfully processed
+-  **Multiple dataset formats** supported
+-  **Concurrent batch processing** for maximum throughput
+-  **Memory-efficient** chunking for datasets of any size
 
 ### Enterprise Features
 - **Batch job queuing** for multiple datasets
@@ -177,7 +177,7 @@ Results Download → Data Validation → Excel Export → Analytics
 - **Detailed logging** and audit trails
 - **Cost optimization** recommendations
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -185,17 +185,17 @@ Results Download → Data Validation → Excel Export → Analytics
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - OpenAI API key with Batch API access
 - Required packages: `openai`, `pandas`, `python-dotenv`, `openpyxl`, `tqdm`
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI** - For providing the advanced Batch API
 - **German Industrial Standards** - For terminology standardization
@@ -203,6 +203,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ Star this repository if you found it helpful!**
+**Star this repository if you found it helpful!**
 
 *Built with love for enterprise-scale product classification*
