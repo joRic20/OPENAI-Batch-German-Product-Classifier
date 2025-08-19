@@ -140,7 +140,7 @@ Output: "Multi-Tool"
 | Approach | Dataset Size | Cost | Time | API Calls |
 |----------|-------------|------|------|-----------|
 | **Standard API** | 700k products | $180 | 18+ hours | 700,000 |
-| **Batch API (This Project)** | 700k products | **$4** | **3 hours** | **870** |
+| **Batch API (This Project)** | 700k products | **$4** | **3 hours** | **1231** |
 | **Efficiency Gain** | - | **97% cheaper** | **12x faster** | **99.8% reduction** |
 
 ## Advanced Features
@@ -193,7 +193,7 @@ Results Download → Data Validation → Excel Export → Analytics
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
